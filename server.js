@@ -1,15 +1,14 @@
-var express = require('express')
-var bodyParser = require('body-parser')
-var plants_api = require('./routes/plants.js')
+let express = require('express')
+let bodyParser = require('body-parser')
+let products_api = require('./routes/products.js')
 
-var app = express() 
+let app = express() 
 
 app.use(express.static('public'))
 
-
 app.use(bodyParser.json())
 
-app.use('/api', plants_api)
+app.use('/api', products_api)
 
 // Error handlers - for not found, and app errors 
 app.use(function(req, res, next){
