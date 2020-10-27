@@ -1,4 +1,5 @@
 module.exports = [ {
+    id: 1,
     productName: 'Boots',
     description: 'Waterproof boots, ideal for MN winters',
     available: true,
@@ -11,6 +12,7 @@ module.exports = [ {
     price: 49.99,
    
 }, {
+    id: 2,
     productName: 'Hat',
     description: 'Wool hat with logo',
     available: true,
