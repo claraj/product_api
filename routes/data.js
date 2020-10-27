@@ -1,10 +1,10 @@
 module.exports = [ {
     id: 1,
     productName: 'Boots',
-    description: 'Waterproof boots, ideal for MN winters',
+    description: 'Bright yellow boots',
     available: true,
     quantityAvailable: 100,
-    features: [ 'Warm', 'Waterproof', 'Come in a pair', 'They are boots'],
+    features: [ 'Sunshine yellow', 'Waterproof'],
     image: 'boots.png',
     quantity: 1,      // quantity customer is ordering, start at 1
     maxQuantity: 5,
@@ -14,10 +14,10 @@ module.exports = [ {
 }, {
     id: 2,
     productName: 'Hat',
-    description: 'Wool hat with logo',
+    description: 'Wool bobble hat',
     available: true,
     quantityAvailable: 40,
-    features: [ 'Wool blend fabric', 'Embroidered brand logo', 'Machine washable'],
+    features: [ 'Wool blend fabric', 'Very warm', 'Machine washable'],
     image: 'hat.png',
     quantity: 1,      // quantity customer is ordering, start at 1
     maxQuantity: 10,
