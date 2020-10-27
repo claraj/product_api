@@ -4,6 +4,9 @@ var plants_api = require('./routes/plants.js')
 
 var app = express() 
 
+app.use(express.static('public'))
+
+
 app.use(bodyParser.json())
 
 app.use('/api', plants_api)

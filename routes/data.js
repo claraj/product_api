@@ -1,11 +1,24 @@
 module.exports = [
     { 
-        "name": "spider plant",
-        "care": "Don't let your cat eat it"
+        name: 'Boots',
+        description: 'A pair of boots, ideal for Minnesota winters',
+        features: [
+            'Warm',
+            'Waterproof',
+            'Rated to -20F'
+        ],
+        maxQuantity: 5,
+        image: 'images/boots.png',
     },
-
     { 
-        "name": "cactus",
-        "care": "Don't let your cat sit on it"
+
+        name: 'Hat',
+        description: 'Wool hat with logo',
+        features: [
+            'Thick material',
+            ''
+        ],
+        maxQuantity: 10,
+        image: 'images/hat.png',
     },
 ]
