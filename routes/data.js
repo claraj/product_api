@@ -1,27 +1,38 @@
 module.exports = [ {
     id: 1,
     productName: 'Boots',
-    description: 'Bright yellow boots',
+    description: 'Bright Yellow Boots',
     available: true,
     quantityAvailable: 100,
     features: [ 'Sunshine yellow', 'Waterproof'],
     image: 'boots.png',
-    quantity: 1,      // quantity customer is ordering, start at 1
     maxQuantity: 5,
     minQuantity: 1,
     price: 49.99,
    
-}, {
+}, 
+{
     id: 2,
     productName: 'Hat',
-    description: 'Wool bobble hat',
+    description: 'Wool Bobble Hat',
     available: true,
     quantityAvailable: 40,
     features: [ 'Wool blend fabric', 'Very warm', 'Machine washable'],
     image: 'hat.png',
-    quantity: 1,      // quantity customer is ordering, start at 1
     maxQuantity: 10,
     minQuantity: 1,
     price: 14.99,
   
-} ]
+},
+{
+    id: 3,
+    productName: 'Mittens',
+    description: 'Red Wool Mittens',
+    available: false,
+    quantityAvailable: 0,
+    features: [ 'Handmade', 'One size fits all', 'Pure wool'],
+    image: 'mittens.png',
+    maxQuantity: 0,
+    minQuantity: 0,
+    price: 18.99,
+}]

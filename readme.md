@@ -21,4 +21,5 @@ Then server will be https://your-heroku-app.herokuapp.com/api/products
 ### Image credits
 
 Yellow boots (cropped) https://unsplash.com/@noahbuscher https://unsplash.com/photos/H6HNYGsyeKQ    
-Wool Hat (cropped) https://unsplash.com/@izzygerosa https://unsplash.com/photos/WvUCI4ZZ134
+Wool hat (cropped) https://unsplash.com/@izzygerosa https://unsplash.com/photos/WvUCI4ZZ134
+Red mittens https://unsplash.com/photos/i31FobJY0xk 
