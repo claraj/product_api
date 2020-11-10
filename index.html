@@ -1,0 +1,46 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Verdana';
+            margin: 20px;
+        }
+
+        img {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Example Products API</h1>
+
+    <h2>List of products</h2>
+    <p>List of products at <a href="" id="product-api"></a></p>
+
+    <h2>Product Images</h2>
+
+    <p>Product images at (for example) <a href="" id="product-img"></a></p>
+
+    <img id="example-img">
+
+</body>
+
+<script>
+
+    let url = document.location.href 
+    let productURL = url + 'api/products'
+    let apiHome = document.querySelector('#product-api')
+    apiHome.innerHTML = productURL
+    apiHome.href = productURL
+
+    let productImg = url + 'img/boots.png'
+    let apiImg = document.querySelector('#product-img')
+    apiImg.innerHTML = productImg
+    apiImg.href = productImg
+
+    let exampleImage = document.querySelector('#example-img')
+    exampleImage.src = productImg
+
+</script>
+</html>
