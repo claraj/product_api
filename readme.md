@@ -9,17 +9,39 @@ npm start
 
 server will be at http://127.0.0.1:3000 for example https://127.0.0.1:3000/api/products
 
-To deploy to Heroku, create Heroku account, install command line tools, 
+To deploy to Heroku, create Heroku account, install command line tools, authenticate to Heroku and then run
 
 ```
 heroku apps:create 
 git push heroku master
+heroku open
 ```
-
-Then server will be https://your-heroku-app.herokuapp.com/api/products
 
 ### Image credits
 
-Yellow boots (cropped) https://unsplash.com/@noahbuscher https://unsplash.com/photos/H6HNYGsyeKQ    
-Wool hat (cropped) https://unsplash.com/@izzygerosa https://unsplash.com/photos/WvUCI4ZZ134
-Red mittens https://unsplash.com/photos/i31FobJY0xk 
+#### Yellow boots, cropped and resized 
+Title: Person wearing yellow Doc Martens Airwair boots on gray rock    
+Author: [Noah Buscher](https://unsplash.com/@noahbuscher)   
+Source: https://unsplash.com/photos/H6HNYGsyeKQ     
+License: [Unsplash License](https://unsplash.com/license)   
+
+<img alt="Yellow Boots" src="https://claraj.github.io/product_api/public/img/boots.png" height="300">
+
+
+#### Wool Hat, cropped and resized 
+Title: woman standing on snow field near trees photo   
+Author: [Izzy Gerosa](https://unsplash.com/@izzygerosa)   
+Source: https://unsplash.com/photos/WvUCI4ZZ134    
+License: [Unsplash License](https://unsplash.com/license)   
+
+<img alt="Wool Hat" src="https://claraj.github.io/product_api/public/img/hat.png" height="300">
+
+
+#### Red Mittens, cropped and resized 
+Title: white ceramic mug on red knit textile photo    
+Author: [Dylan Ferreira](https://unsplash.com/@dylanferreira)   
+Source: https://unsplash.com/photos/i31FobJY0xk   
+License: [Unsplash License](https://unsplash.com/license)   
+
+<img alt="Red mittens" src="https://claraj.github.io/product_api/public/img/mittens.png" height="300">
+
